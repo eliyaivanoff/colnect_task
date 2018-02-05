@@ -1,0 +1,34 @@
+﻿body, td, input {
+    font: normal 13pt Calibri, Arial;
+}
+
+table {
+    margin: 25px auto;
+    width: 50%;
+}
+
+td:nth-of-type(odd) {
+    white-space: nowrap;
+    text-align: right;
+    width: 20%;
+}
+
+tr:nth-last-of-type(1) td{
+    height: 50px;
+    text-align: center;
+}
+
+input[type=button] {
+    font: bold 11pt Calibri, Arial;
+    width: 150px;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+#info {
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+}
